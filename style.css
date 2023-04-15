@@ -1,0 +1,40 @@
+    body {
+      background-color: #000000;
+      overflow: hidden;
+    }
+    
+    #plat1 {
+      margin-top: 350px;
+      margin-left: 100px;
+      width: 150px;
+      height: 10px;
+      
+      background-color: white;
+    }
+
+    #game-container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+      overflow: hidden;
+      border: 2px solid #ffffff;
+    }
+
+    #character {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      background-color: #ff0000;
+    }
+
+    #prize {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 50px;
+      background-color: #00ff00;
+    }
